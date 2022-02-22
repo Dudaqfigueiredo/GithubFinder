@@ -422,10 +422,22 @@ table th {
   }
 }
 
-h1, p,h3,h2{
+h1, p,h3,h2, ul, li, a{
   color:white
 }
 
-.grid-2 h3{
-  border-bottom: solid 1px #f3f0f0;
+.borda{
+  width: 300px;
+  border-bottom: dashed 1px #f3f0f0;
 }
+
+.reposi{
+  color: rgb(211, 210, 210)
+
+}
+
+.left{
+  display: flex;
+  text-align: left;
+}
+
