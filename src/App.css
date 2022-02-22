@@ -421,3 +421,11 @@ table th {
     justify-content: center;
   }
 }
+
+h1, p,h3,h2{
+  color:white
+}
+
+.grid-2 h3{
+  border-bottom: solid 1px #f3f0f0;
+}
