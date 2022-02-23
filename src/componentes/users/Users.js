@@ -5,15 +5,15 @@ import Spinner from '../layout/Spinner';
 const Users = ({ users, loading }) => {
   if (loading) {
     return <Spinner />;
-  } else {
+  } 
     return (
       <div style={userStyle}>
-        {users.map((user) => (
+        {users?.map((user) => (
           <UserItem key={user.id} user={user} />
         ))}
       </div>
     );
-  }
+  
 };
 
 const userStyle = {

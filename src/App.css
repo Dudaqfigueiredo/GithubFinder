@@ -441,3 +441,6 @@ h1, p,h3,h2, ul, li, a{
   text-align: left;
 }
 
+img :hover{
+  width: 200%;
+}
