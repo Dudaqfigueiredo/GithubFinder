@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from 'react-router-dom'
-import '../../../src/App.css'
+import '../../App.css'
 
 const UserItem = ({ user: { login, avatar_url, html_url } }) => {
   return (
